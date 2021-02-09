@@ -1,8 +1,8 @@
 import random
 
 # Переменные размера матрицы
-column = 10
-row = 10
+column = 100
+row = 100
 
 matrix = [[random.randrange(0, 100) for y in range(column)] for x in range(row)]
 

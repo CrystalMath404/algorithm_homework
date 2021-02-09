@@ -1,6 +1,9 @@
 from main import quicksort
 from main import matrix, row
 
+import time
+start_time = time.time()
+
 
 def selection_sort(lst):
     for num in range(len(lst)):
@@ -20,3 +23,8 @@ for i in range(row):
 print()
 for i in range(row):
     print(quicksort(matrix[i]))
+print()
+for i in range(row):
+    print(sorted(matrix[i]))
+
+print("--- %s seconds ---" % (time.time() - start_time))
