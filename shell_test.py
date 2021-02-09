@@ -46,9 +46,3 @@ print()
 for i in range(row):
     print(shell_sort(matrix[i]))
 print()
-
-# def test (r, c):
-#     matrix = [[random.randrange(0, 100) for y in range(r)] for x in range(c)]
-#     return matrix
-#
-# print(test(10,5))
