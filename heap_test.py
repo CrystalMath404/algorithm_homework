@@ -51,13 +51,13 @@ def HeapSift(data, start, end):
         else:
             break
 
-for i in range(row):
-    print(HeapSort(matrix[i]))
-print()
+# for i in range(row):
+#     print(HeapSort(matrix[i]))
+# print()
 # for i in range(row):
 #     print(quicksort(matrix[i]))
 # print()
-# for i in range(row):
-#     print(sorted(matrix[i]))
+for i in range(row):
+    print(sorted(matrix[i]))
 
 print("--- %s seconds ---" % (time.time() - start_time))

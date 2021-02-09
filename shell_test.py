@@ -44,13 +44,13 @@ def shell_sort(lst):
     return lst
 
 
-for i in range(row):
-    print(quicksort(matrix[i]))
-print()
+# for i in range(row):
+#     print(quicksort(matrix[i]))
+# print()
 for i in range(row):
     print(shell_sort(matrix[i]))
-print()
-for i in range(row):
-    print(sorted(matrix[i]))
+# print()
+# for i in range(row):
+#     print(sorted(matrix[i]))
 
 print("--- %s seconds ---" % (time.time() - start_time))

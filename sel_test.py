@@ -20,11 +20,11 @@ def selection_sort(lst):
 # Вызов функций сортировки
 for i in range(row):
     print(selection_sort(matrix[i]))
-print()
-for i in range(row):
-    print(quicksort(matrix[i]))
-print()
-for i in range(row):
-    print(sorted(matrix[i]))
+# print()
+# for i in range(row):
+#     print(quicksort(matrix[i]))
+# print()
+# for i in range(row):
+#     print(sorted(matrix[i]))
 
 print("--- %s seconds ---" % (time.time() - start_time))
